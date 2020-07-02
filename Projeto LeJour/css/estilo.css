@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Lato;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+header ul{
+	width: 75%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+	list-style: none;
+}
+
+header li{
+	padding: 10px;
+	display: inline-block;
+}
+
+header ul li a{
+	color: #585858;
+	font-size: 1em;
+	line-height: 3em;
+	text-decoration: none;
+}
+
+header li:hover{
+	background: #FAFAFA;
+}
+
+
+.meio{
+	color: #585858;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 70%;
+	margin: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.meio img{
+	border-radius: 10px;
+	width: 100%;
+}
+
+.meio a{
+	color: #585858;
+	text-decoration: none;
+}
+
+.esquerdo{
+	font-style: italic;
+	width: 45%;
+	font-size: 1.4em;
+	font-family: 'Poppins', sans-serif;
+}
+
+.direito{
+	width: 45%;
+}
+
+.caixa{
+	letter-spacing: 1px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	height: 220px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #585858;
+}
+
+.caixa i{
+	color: #E2645A;
+	padding-top: 15px;
+}
+
+
+
+footer{
+	color: white;
+	padding-top: 50px;
+	height: 160px;
+	width: 100%;
+	background: #E2645A;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+footer img{
+	width: 203px;
+	height: 61px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+
+.face{
+	color: white;
+	margin: 10px;
+}
+
+.twitter{
+	color: white;
+	margin: 10px;
+}
+
+.yt{
+	color: white;
+	margin: 10px;
+}
+
+.insta{
+	color: white;
+	margin: 10px;
+}
+
+.whats{
+	color: white;
+	margin: 10px;
+}
+
+/*********** página entrada pedido de casamento****************/
+
+.conteudomeio{
+	letter-spacing: 1px;
+	margin-top: 50px;
+	width: 400px;
+	height: 500px;
+}
+
+form input{
+	width: 90%;
+	height: 25px;
+	border: none;
+	border-bottom: 1px solid black;
+}
+
+form button{
+	color: white;
+	width: 40%;
+	height: 45px;
+	border: none; 
+	border-radius: 48px;
+	background: #86D0CB;
+	box-shadow: 0px 18px 31px rgba(134, 208, 203, 0.38), 
+	0px 4px 12px rgba(134, 208, 203, 0.05);
+}
+
+
+form button:hover{
+	transition: 0.5s;
+	cursor: pointer;
+	background: #68BFB7;
+}
+
+/*********** página documentos *****************/
+
+.imagem img{
+	width: 90%;
+	height: 500px;
+}
+
+/************ página contratar celebrante *******/
+
+.celebrante{
+	color: #585858;
+	letter-spacing: 1px;
+	width: 40%;
+	margin: 30px;
+}
+
+.celebrante button{
+	color: white;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 20px;
+	background: #86D0CB;
+	margin-top: 20px;
+	width: 70%;
+	height: 40px;
+	box-shadow: 0px 0px 5px rgba(134, 208, 203, 0.38);
+}
+
+.celebrante button:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 7px rgba(134, 208, 203, 1);
+}
+
+
+/*********** página personalize seu momento ****/
+
+.meio2{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	width: 70%;
+	margin: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.meio2 a{
+	color: #585858;
+	text-decoration: none;
+}
+
+.caixa2{
+	color: white;
+	font-size: 1.5em;
+	text-shadow: 2px 2px 2px black;
+	padding: 10px;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #585858;
+}
+
+.caixa2:hover{ 
+	box-shadow: 5px 5px 15px #585858;
+	transition: 0.5s;
+}
+
+.buffet{
+	background: url(../imgs/buffet.jpg) no-repeat;
+	background-position: center;
+	background-size: 150%;
+}
+
+.lembranca{
+	background: url(../imgs/lembranca.jpg)no-repeat;
+	background-position: center;
+	background-size: 150%;
+}
+
+.convite{
+	background: url(../imgs/convite.jpg) no-repeat;
+	background-position: center;
+	background-size: 150%;
+}
+
+.bouquet{
+	background: url(../imgs/bouquet.jpg) no-repeat;
+	background-position: center;
+	background-size: 150%;
+}
+
+.mimos{
+	background: url(../imgs/mimos.jpg) no-repeat;
+	background-position: center;
+	background-size: 150%;
+}
+
+.making{
+	background: url(../imgs/making.jpg) no-repeat;
+	background-position: center;
+	background-size: 150%;
+}
+
+/****** páginas de seleções ********/
+
+#container{
+	padding-top: 40px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+	text-align: center;
+	width: 50%;
+	background: linear-gradient(90deg, white, #E0F8F7, white);
+}
+
+#container button{
+	color: white;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 20px;
+	background: #86D0CB;
+	margin-top: 30px;
+	width: 60%;
+	height: 40px;
+	box-shadow: 0px 0px 5px rgba(134, 208, 203, 0.38);
+}
+
+#container button:hover{
+	cursor: pointer;
+	box-shadow: 0px 0px 7px rgba(134, 208, 203, 1);
+}
+
+
